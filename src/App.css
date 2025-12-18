@@ -1,0 +1,69 @@
+body{
+  padding-top: 10%;
+  background-color: rgb(213, 230, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+  padding: 50px;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4;
+  border: #bfbfbf 2px solid;
+  padding: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  transform: scaleX(1);
+  transition-property: transform, box-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  transition-delay: 100ms;
+}
+.item:hover{
+  transform: scale(1.02);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .2), 0 4px 4px 0 rgba(0, 0, 0, .14), 0 4px 4px rgba(0, 0, 0, .12);
+}
+.item img{
+  border-radius: 10px;
+  transform: scaleX(1);
+  transition-property: transform, box-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  transition-delay: 100ms;
+}
+.item img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .2), 0 4px 4px 0 rgba(0, 0, 0, .14), 0 4px 4px rgba(0, 0, 0, .12);
+}
+
+.item h2{
+  transform: scaleX(1);
+  transition-property: transform, text-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  transition-delay: 100ms;
+}
+.item h2:hover{
+  transform: scale(1.05);
+  text-shadow: 2px 2px 5px rgba(224, 224, 224, 0.4);
+}
+.item p{
+  transform: scaleX(1);
+  transition-property: transform, text-shadow;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  transition-delay: 100ms;
+}
+.item p:hover{
+  transform: scale(1.1);
+  text-shadow: 2px 2px 5px rgba(136, 136, 136, 0.4);
+}
