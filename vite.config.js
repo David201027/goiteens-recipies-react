@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/goiteens-recipes-react/',
+  base: '/goiteens-recipies-react/'
 })
